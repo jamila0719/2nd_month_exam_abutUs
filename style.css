@@ -26,6 +26,9 @@ li{
     margin-left: 80px;
     
 }
+.allPageWidth .container nav .logo img{
+    border-radius: 10px;
+}
 .allPageWidth .container nav .logo ul{
     display: flex;
     gap: 2vw;
@@ -47,7 +50,7 @@ text-transform: uppercase;
 .allPageWidth .container .plan{
     background-image: url(./img/headerImg.png);
     width: 1398px;
-   height: 1532px;
+   height: 1280px;
 background-repeat: no-repeat;
 margin-left: 80px;
 margin-top: 60px;
@@ -77,3 +80,33 @@ font-weight: 400;
 line-height: 26px; 
 padding-top: 32px;
 }
+.allPageWidth .container .commitet{
+    display: flex;
+}
+.allPageWidth .container .commitet .commitet_img img{
+    margin-left: 125px;
+    border-radius: 10px;
+}
+.allPageWidth .container .commitet .commitet_text{
+    margin-left: 125px;
+}
+.allPageWidth .container .commitet .commitet_text h2{
+    color: #333D4B;
+font-family: Fraunces 9pt;
+font-size: 40px;
+font-style: normal;
+font-weight: 900;
+line-height: 48px; 
+}
+.allPageWidth .container .commitet .commitet_text p{
+    color: #333D4B;
+font-family: Barlow;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+opacity: 0.8;
+}
+/* second section ended */
+
+/* third setion started */

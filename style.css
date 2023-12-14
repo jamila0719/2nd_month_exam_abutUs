@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;700&family=Fraunces:opsz,wght@9..144,200;9..144,300;9..144,600;9..144,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9.144,200;9..144,300;9..144,600;9..144,800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.allPageWidth{
+    width: 100%;
+}
+.allPageWidth .container{
+    width: 1440px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}.allPageWidth .container nav .logo{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    margin-left: 80px;
+    
+}
+.allPageWidth .container nav .logo ul{
+    display: flex;
+    gap: 2vw;
+}
+.allPageWidth .container nav .logo ul li a{
+    color: #83888F;
+font-family: Barlow;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 15px; 
+letter-spacing: 0.923px;
+text-transform: uppercase;
+}
+.allPageWidth .container nav .logo ul li a:hover{
+    color: #333D4B;
+    cursor: pointer;
+}
+.allPageWidth .container .plan{
+    background-image: url(./img/headerImg.png);
+    width: 1398px;
+   height: 1532px;
+background-repeat: no-repeat;
+margin-left: 80px;
+margin-top: 60px;
+border-radius: 10px;
+
+
+}
+.allPageWidth .container .plan .plan_text{
+    margin-left: 80px;
+    padding-top: 100px;
+    
+}
+.allPageWidth .container .plan .plan_text h1{
+    color: #FEFCF7;
+font-family: Fraunces 9pt;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: 72px; 
+}
+.allPageWidth .container .plan .plan_text p{
+    color: #FEFCF7;
+font-family: Barlow;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+padding-top: 32px;
+}
